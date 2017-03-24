@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Subscribe
     public void onEventMainThread(FirstEvent event) {
-
         String msg = "onEventMainThread收到了消息：" + event.getMsg();
         Log.d("harvic", msg);
         tv.setText(msg);

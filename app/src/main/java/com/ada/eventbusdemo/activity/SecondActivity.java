@@ -14,6 +14,7 @@ import org.greenrobot.eventbus.EventBus;
  * 需要在接受消息的页面注册Event
  */
 public class SecondActivity extends AppCompatActivity {
+
     private Button btn_FirstEvent;
 
     @Override
